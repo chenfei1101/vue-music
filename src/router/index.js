@@ -4,8 +4,11 @@ import Router from 'vue-router'
 import Login from 'view/Login/index.vue'
 let routes = [{
   path: '/login',
-  // name: 'login',
-  component: Login
+  name: 'login',
+  component: Login,
+  meta: {
+    title: 'login'
+  }
 }, {
   path: '/',
   component: Login
@@ -17,5 +20,4 @@ Vue.use(Router)
 const router = new Router({
   routes: routes
 })
-
 export default router
