@@ -12,8 +12,11 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "css-loader": "^0.28.11",
     "fastclick": "^1.0.6",
-    "scss": "^0.2.4",
+    "node-sass": "^4.9.2",
+    "sass": "^1.10.0",
+    "sass-loader": "^7.0.3",
     "vue": "^2.5.2",
     "vue-i18n": "^8.0.0",
     "vue-router": "^3.0.1",
