@@ -22,3 +22,12 @@ npm run build --report
 * [vue-i18n](https://github.com/kazupon/vue-i18n) 中英文切换
 * [vuex](https://github.com/vuejs/vuex) 状态管理
 * [axios](https://github.com/axios/axios) 数据请求
+* fastclick 处理移动端click事件300毫秒延迟
+  ```
+    当页面的DOM树解析好并且需要等待JS执行完才触发
+    if ('addEventListener' in document) {
+      document.addEventListener('DOMcontentLoaded', function () {
+        Fastclick.attach(document.body)
+      }, false)
+    }
+  ```
