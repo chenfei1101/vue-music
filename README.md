@@ -18,4 +18,7 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+### vue + vue-router vuex axios vue-i18n
+* [vue-i18n](https://github.com/kazupon/vue-i18n) 中英文切换
+* [vuex](https://github.com/vuejs/vuex) 状态管理
+* [axios](https://github.com/axios/axios) 数据请求
